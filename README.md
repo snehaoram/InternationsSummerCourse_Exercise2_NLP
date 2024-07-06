@@ -12,3 +12,15 @@ Essential data and tags are loaded in the code. You are advised to take up the f
 2. Use different values of epoch (i.e., iterations) from the Hyper-parameter space given.
 The correct output you should obtain is [a DET quick ADJ brown ADJ fox NOUN jumped VERB
 over ADP the DET lazy ADJ dog NOUN]
+
+
+# Few Instructions
+
+
+Please write your code in the designated spaces provided. See for the text – ‘Write your code
+here’. For training use different combinations of epochs and learning rate. Please do not edit in
+anywhere else in the code.
+Take care of the dependencies, commands to install transformers, torch, torchtext are given.
+Run all cells and scroll down to find the train() and evaluate() functions. Use the inbuilt GPU
+provided in the Kaggle platform. Go to More Settings - Accelerator - GPU P100. If you are
+using Google Colab go to Runtime - Change Runtime type - T4 GPU
